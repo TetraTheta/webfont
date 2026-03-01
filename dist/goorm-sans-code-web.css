@@ -2,6 +2,6 @@
   font-family: 'goorm-sans-code';
   font-weight: 400;
   src: local('goorm Sans Code'),
-    url('//cdn.jsdelivr.net/gh/TetraTheta/webfont/dist/font/goorm-sans-code.woff2') format('woff2'),
-    url('//cdn.jsdelivr.net/gh/TetraTheta/webfont/dist/font/goorm-sans-code.woff') format('woff');
+    url('./font/goorm-sans-code.woff2') format('woff2'),
+    url('./font/goorm-sans-code.woff') format('woff');
 }

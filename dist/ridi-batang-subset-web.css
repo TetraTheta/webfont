@@ -2,6 +2,6 @@
   font-family: 'ridi-batang-subset';
   font-weight: 400;
   src: local('RIDIBatang'),
-    url('//cdn.jsdelivr.net/gh/TetraTheta/webfont/dist/font/ridi-batang-subset.woff2') format('woff2'),
-    url('//cdn.jsdelivr.net/gh/TetraTheta/webfont/dist/font/ridi-batang-subset.woff') format('woff');
+    url('./font/ridi-batang-subset.woff2') format('woff2'),
+    url('./font/ridi-batang-subset.woff') format('woff');
 }
