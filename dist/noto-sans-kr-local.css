@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'noto-sans-kr';
+  font-weight: 400;
+  src: local('Noto Sans CJK KR'), local('Noto Sans KR Regular'),
+    url('./font/noto-sans-kr.woff2') format('woff2'),
+    url('./font/noto-sans-kr.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'noto-sans-kr';
+  font-weight: 700;
+  src: local('Noto Sans CJK KR Bold'), local('Noto Sans KR Bold'),
+    url('./font/noto-sans-kr-bold.woff2') format('woff2'),
+    url('./font/noto-sans-kr-bold.woff') format('woff');
+}

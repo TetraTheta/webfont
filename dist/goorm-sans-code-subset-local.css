@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'goorm-sans-code-subset';
+  font-weight: 400;
+  src: local('goorm Sans Code'),
+    url('./font/goorm-sans-code-subset.woff2') format('woff2'),
+    url('./font/goorm-sans-code-subset.woff') format('woff');
+}

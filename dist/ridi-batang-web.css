@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'ridi-batang';
+  font-weight: 400;
+  src: local('RIDIBatang'),
+    url('//cdn.jsdelivr.net/gh/TetraTheta/webfont/dist/font/ridi-batang.woff2') format('woff2'),
+    url('//cdn.jsdelivr.net/gh/TetraTheta/webfont/dist/font/ridi-batang.woff') format('woff');
+}

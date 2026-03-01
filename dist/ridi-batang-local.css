@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'ridi-batang';
+  font-weight: 400;
+  src: local('RIDIBatang'),
+    url('./font/ridi-batang.woff2') format('woff2'),
+    url('./font/ridi-batang.woff') format('woff');
+}
