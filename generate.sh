@@ -28,6 +28,21 @@ else
   source "$VENV_PATH/Scripts/activate"
 fi
 
+if [ -d ".git" ] && [ -f ".gitmodules" ]; then
+  echo "Initializing and updating submodules..."
+  git submodule update --init --recursive
+
+  if [ ! -f "$GLYPHS_FILE" ]; then
+    echo "WARNING: Submodule updated, but '$GLYPHS_FILE' is still missing."
+  fi
+else
+  if [ ! -d "glyphs" ]; then
+    echo "ERROR: 'glyphs' directory not found and not in a git repository."
+    echo "Please ensure the glyphs submodule is downloaded."
+    exit 1
+  fi
+fi
+
 # slugify: Uppercase -> Lowercase, Space -> Dash
 slugify() {
   echo "$1" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed 's/\.[^.]*$//'
