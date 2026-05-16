@@ -2,6 +2,45 @@
 
 웹 폰트 모음집
 
+## 생성 도구 사용 방법 (UV)
+
+### 도움말
+
+```bash
+uv run wfgen.py.py --help
+```
+
+### 전체 폰트 생성 (Full + Subset)
+
+```bash
+uv run wfgen.py.py --all --both
+```
+
+### 특정 폰트만 생성
+
+```bash
+uv run wfgen.py.py --font="Noto Sans KR" --subset
+uv run wfgen.py.py --font="RIDI Batang" --full
+```
+
+### 대화형 모드
+
+인자를 생략하면 폰트/생성 모드를 순서대로 선택할 수 있습니다.
+
+```bash
+uv run wfgen.py
+```
+
+### 사전 준비
+
+- `fonts-original/` 경로에 원본 폰트 파일이 있어야 합니다.
+- subset 생성 시 `glyphs/glyphs.txt`가 필요합니다.
+- Git 저장소라면 다음 명령으로 서브모듈을 먼저 준비하세요.
+
+```bash
+git submodule update --init --recursive
+```
+
 ## 사용 방법
 
 ### 구름 산스 코드

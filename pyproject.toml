@@ -1,0 +1,14 @@
+[project]
+name = "webfont"
+version = "0.1.0"
+description = "Generate webfont files"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "brotli",
+  "fonttools",
+  "zopfli"
+]
+
+[tool.ruff]
+line-length = 120
