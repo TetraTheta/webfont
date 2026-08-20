@@ -7,20 +7,20 @@
 ### 도움말
 
 ```bash
-uv run wfgen.py.py --help
+uv run wfgen.py --help
 ```
 
 ### 전체 폰트 생성 (Full + Subset)
 
 ```bash
-uv run wfgen.py.py --all --both
+uv run wfgen.py --all --both
 ```
 
 ### 특정 폰트만 생성
 
 ```bash
-uv run wfgen.py.py --font="Noto Sans KR" --subset
-uv run wfgen.py.py --font="RIDI Batang" --full
+uv run wfgen.py --font="Noto Sans KR" --subset
+uv run wfgen.py --font="RIDI Batang" --full
 ```
 
 ### 대화형 모드
